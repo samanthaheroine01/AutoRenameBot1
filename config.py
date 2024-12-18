@@ -19,8 +19,8 @@ class Config(object):
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/29a3acbbab9de5f45a5fe.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7228509851').split()]
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'Aj_Flix_Hub').split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002200711623"))
-    DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002200711623"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002313308698"))
+    DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002313308698"))
     
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
